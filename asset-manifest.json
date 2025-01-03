@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/bbc.news-clone/static/css/main.1aab5e30.css",
+    "main.js": "/bbc.news-clone/static/js/main.5d80f570.js",
+    "static/js/488.cfc9bd55.chunk.js": "/bbc.news-clone/static/js/488.cfc9bd55.chunk.js",
+    "static/media/bbc-login-image.png": "/bbc.news-clone/static/media/bbc-login-image.bc758076275cbbe9f220.png",
+    "static/media/BBC-logo.png": "/bbc.news-clone/static/media/BBC-logo.7658fc674a65984ee93c.png",
+    "index.html": "/bbc.news-clone/index.html",
+    "main.1aab5e30.css.map": "/bbc.news-clone/static/css/main.1aab5e30.css.map",
+    "main.5d80f570.js.map": "/bbc.news-clone/static/js/main.5d80f570.js.map",
+    "488.cfc9bd55.chunk.js.map": "/bbc.news-clone/static/js/488.cfc9bd55.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1aab5e30.css",
+    "static/js/main.5d80f570.js"
+  ]
+}
