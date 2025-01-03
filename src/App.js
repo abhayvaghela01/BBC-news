@@ -6,14 +6,11 @@ import NewsDetails from "./Components/NewsDetails";
 
 function App() {
   return (
-    <>
-      <Routes>
-        <Route path="/signin" element={<Signin />} />
-        <Route path="/" element={<Main />} />
-        <Route path="/details" element={<NewsDetails />} />
-      </Routes>
-
-    </>
+    <Routes>
+      <Route path="/signin" element={<Signin />} />
+      <Route path="/" element={<Main />} />
+      <Route path="/details" element={<NewsDetails />} />
+    </Routes>
   );
 }
 
