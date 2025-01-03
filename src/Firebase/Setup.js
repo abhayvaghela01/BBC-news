@@ -8,13 +8,15 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDiBrrDVz6n0IS2Ohp4W0Rwph38xoDuihk",
-  authDomain: "bbc-clone-2e633.firebaseapp.com",
-  projectId: "bbc-clone-2e633",
-  storageBucket: "bbc-clone-2e633.firebasestorage.app",
-  messagingSenderId: "567372046628",
-  appId: "1:567372046628:web:8206c33d366534403213b1"
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID
 };
+
+export default firebaseConfig;
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
